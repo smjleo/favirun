@@ -7,5 +7,24 @@ The game runs on a Flask server, which communicates the current game information
 ## Why?
 Why not?
 
+## Dependencies
+* Python 3
+
+* Flask
+
 ## Try it yourself
-First, clone the repo. To start the Flask server, go to `favirun/backend` and type in `flask run`. For the 'pixels', open 12 tabs of `display.html` on Google Chrome and arrange it as shown in the video. You can pin the tabs on Chrome to make the tabs only show the favicon. Open `index.html` and press the button to start the game.
+1. Clone the repo:   
+```
+git clone https://github.com/smjleo/favirun
+```
+
+2. Start the Flask server:  
+```
+cd favirun/backend
+flask run
+```
+3. For the 'pixels', open 12 tabs of `display.html` on Google Chrome and arrange it as shown in the video. You can pin the tabs on Chrome to make the tabs only show the favicon. 
+
+4. For each pixel, set the row and column values. The top left corner is `(0, 0)` and the bottom right corner is `(3, 2)`.
+
+5. Open `index.html` and press the 'Start game' button to start the game.
